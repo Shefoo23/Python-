@@ -6,8 +6,6 @@ def count_vowels(text):
         if i in vowels:
             counter += 1
     print(counter)
-x=input("enter the word : ")
-count_vowels(x)
 # ===============================================================================================
 #   Write a program that prints the locations of "i" character in any string you added.
 def count_i(letter):
@@ -17,8 +15,6 @@ def count_i(letter):
             count += 1
     return count
 
-x=input("enter thw word:")
-print(count_i(x))
 # =============================================================================
 #  Write a program that generate a multiplication table from 1 to the number passed.
 def Multi_Table(number):
@@ -27,6 +23,5 @@ def Multi_Table(number):
             print(f"{i}x{d}= {i*d}")
     print()       
 
-number=int(input('enter a number  '))
-print(Multi_Table(number))
+
 # ====================================================================================
