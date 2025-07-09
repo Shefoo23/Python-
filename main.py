@@ -2,7 +2,7 @@ import mario
 import letters
 import lists
 import email_valid
-import  Dictionary
+import Dictionary
 import email_valid
 emailsa=[
      "ali@gmail-com",
