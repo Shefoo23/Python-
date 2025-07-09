@@ -8,8 +8,6 @@ def sort_numbers():
     
     print("Ascending order:", sorted(x))
     print("Descending order:", sorted(x, reverse=True))
-
-sort_numbers()
 # ==============================================================
 #  Write a program that generate a multiplication table from 1 to the number passed
 def generate_multi():
@@ -22,7 +20,5 @@ def generate_multi():
             w.append(i * d)
         l.append(w)
     return l 
-
-print(generate_multi())
 
 
