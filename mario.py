@@ -6,9 +6,6 @@ def mario_pyramid(num):
         print(" "*spaces+"*"*stars)
         stars+=1
         spaces-=1
-x=int(input("enter ur number :"))
-mario_pyramid(x)
-
 # ==============================================================
 
 def pyramids_with_list() :
@@ -22,5 +19,3 @@ def pyramids_with_list() :
         list.append("*")
         list.remove(' ')
         print(list)
-
-pyramids_with_list()
